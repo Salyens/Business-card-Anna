@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Kalnia:wght@200&display=swap");
+
+* {
+  font-family: "Kalnia", serif;
+  font-family: "Comfortaa", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hover {
+  transition: all 0.4s ease-in;
+  text-decoration: none;
+}
+
+.footer-link {
+    font-size: 20px;
+}
+
+.hover:hover {
+  opacity: 0.8;
+  transition: all 0.4s ease-in;
+}
+
+#navbar {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.logo {
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-description {
+    margin-top: 3px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.apply-for {
+    width: 280px;
+}
+
+.small-carousel-wrapper {
+    height: 400px;
+}
+.large-carousel-wrapper {
+    height: 550px;
+}
+
+
+  /* Стили для большой карусели */
+  #carouselLarge .carousel-control-prev,
+  #carouselLarge .carousel-control-next {
+    width: 50px; 
+    height: 50px;
+    top: 50%; 
+    transform: translateY(-50%); 
+  }
+  #carouselLarge .carousel-control-prev {
+    left: -4%; /* смещение влево */
+  }
+  #carouselLarge .carousel-control-next {
+    right: -4%; /* смещение вправо */
+  }
+
+  /* Стили для маленькой карусели */
+  #carouselSmall .carousel-control-prev,
+  #carouselSmall .carousel-control-next {
+    width: 50px; /* Увеличение ширины */
+    height: 50px; /* Увеличение высоты */
+    top: 50%; /* Позиционирование по центру по вертикали */
+    transform: translateY(-50%); /* Смещение для точного центрирования */
+  }
+  #carouselSmall .carousel-control-prev {
+    left: -4%; /* смещение влево */
+  }
+  #carouselSmall .carousel-control-next {
+    right: -4%; /* смещение вправо */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    height: 250px;
+}
